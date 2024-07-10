@@ -37,7 +37,8 @@ export default function SideNav({ activeHref }: SideNavProps) {
             text: 'Settings',
             href: '/settings',
         },
-        { type: 'divider' },
+     /*   { type: 'divider' },
+
         {
             type: 'link',
             text: 'AWS HealthScribe',
@@ -50,18 +51,18 @@ export default function SideNav({ activeHref }: SideNavProps) {
             href: 'https://aws.amazon.com/health',
             external: true,
         },
-        {
+       {
             type: 'link',
             text: 'Amazon Web Services',
             href: 'https://aws.amazon.com',
-            external: true,
-        },
-    ];
+           external: true,
+       },
+    ]; */
 
     return (
         <SideNavigation
             activeHref={activeHref}
-            header={{ text: 'HealDoc Medical Scribe', href: '/' }}
+            header={{ text: 'HealDoc Medical Scribe', href: '/' }} 
             items={sideNavItems}
             onFollow={(e) => {
                 e.preventDefault();

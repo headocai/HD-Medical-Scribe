@@ -78,7 +78,7 @@ function Welcome() {
         }
     }
 
-    function Footer() {
+ /*   function Footer() {
         return (
             <Box textAlign="center" color="text-body-secondary" fontSize="body-s">
                 <p>Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.</p>
@@ -105,8 +105,8 @@ function Welcome() {
             <Container footer={<Footer />}>
                 <Content />
             </Container>
-        </ContentLayout>
+        </ContentLayout> 
     );
-}
+} /*
 
 export default memo(Welcome);
