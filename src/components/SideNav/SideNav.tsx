@@ -42,7 +42,7 @@ export default function SideNav({ activeHref }: SideNavProps) {
     return (
         <SideNavigation
             activeHref={activeHref}
-            header={{ text: 'HealDoc Medical Scribe', href: '/' }} 
+            header={{ text: 'HealDoc Scribe', href: '/' }} 
             items={sideNavItems}
             onFollow={(e) => {
                 e.preventDefault();
